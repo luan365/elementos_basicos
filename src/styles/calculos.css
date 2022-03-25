@@ -1,0 +1,14 @@
+.calculo {
+    background-color: rgb(157, 78, 221);
+    color: lightyellow;
+    width: 75%;
+    height: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    border-radius: 25px;
+    text-align: center;
+}
+h1, h2{
+    margin:20px ;
+}
