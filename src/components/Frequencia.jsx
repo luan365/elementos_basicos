@@ -34,12 +34,14 @@ export default function Formulario(){
             placeholder="Digite seu nome:"
             onChange = { (e) => { setNome( e.target.value ) } }
             />
+            
             <input 
             className="titulo-frequencia"
             type="number"
             placeholder="Digite sua nota:"
             onChange = { (e) => { setNota( e.target.valueAsNumber ) } }
             />
+
             <input 
             className="titulo-frequencia"
             type="number"

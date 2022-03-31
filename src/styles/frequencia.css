@@ -42,9 +42,11 @@ h2 {
 
 .mensagem-frequencia{
     font-size: 16px;
+    margin-top: 10px;
     text-align: center;
     padding-top: 5px ;
-    width: 250px;
+    border: 10px;
+    width: 500px;
     height: 30px;
     background-color: whitesmoke;
     color: black;
