@@ -1,4 +1,4 @@
-.frequencia {
+.aluno {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,14 +16,14 @@ h2 {
     text-align: center;
 }
 
-.campo-frequencia {
+.campo-aluno {
     margin: 10px;
     padding: 10px;
     width: 60%;
     border-radius: 5px;
 }
 
-.botao-frequencia {
+.botao-aluno {
     font-size: 16px;
     width: 250px;
     height: 30px;
@@ -33,14 +33,14 @@ h2 {
 }
 
 
-.titulo-frequencia {
+.titulo-aluno {
     margin: 5px;
     width: 75%;
     border-radius: 5px;
     padding: 10px;
 }
 
-.mensagem-frequencia{
+.mensagem-aluno{
     font-size: 16px;
     margin-top: 10px;
     text-align: center;

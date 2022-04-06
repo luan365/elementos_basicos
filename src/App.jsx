@@ -1,5 +1,6 @@
 import "./styles/global.css";
-import Frequencia from "./components/Frequencia";
+import Aluno from "./components/Aluno"
+import Calculadora from "./components/Calculadora";
 
 export default function App() {
     return (
@@ -8,7 +9,8 @@ export default function App() {
 
              <hr /> 
 
-            <Frequencia />
+            <Aluno />
+            <Calculadora />
         </div>
     );
 }
