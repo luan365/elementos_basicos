@@ -10,7 +10,7 @@ export default function Formulario(){
 
         function Login(){
 
-            if (login == "usuario" && senha == 123456) (
+            if (login === "usuario" && senha === 123456) (
                 setLogado(`Seja bem vindo ${login}`)
                 )
                 else(

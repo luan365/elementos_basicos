@@ -27,11 +27,13 @@ export default function Calculadora(){
             case "dividir":
                 setResultado( n1 / n2 )
                 break;
+            default:
+                break;
             }
         }
 
     return(
-        <div className="calculadora">
+        <div className="conteiner-calculadora">
             <h1>Calculadora</h1>
 
             <input 
@@ -56,8 +58,42 @@ export default function Calculadora(){
                     value="somar"
                     onClick={ e => setOperacao( e.target.value ) }
                 />
-                </div>
                 <label htmlFor="somar">Somar</label>
+            </div>
+
+                <div className="operacao-calculadora">
+                <input 
+                    type="radio"
+                    id="subtrair"
+                    name="operacoes"
+                    value="subtrair"
+                    onClick={ e => setOperacao( e.target.value ) }
+                />
+                <label htmlFor="somar">Subtrair</label>
+            </div>
+
+            <div className="operacao-calculadora">
+                <input 
+                    type="radio"
+                    id="multiplicar"
+                    name="operacoes"
+                    value="multiplicar"
+                    onClick={ e => setOperacao( e.target.value ) }
+                />
+                <label htmlFor="somar">Multiplicar</label>
+            </div>
+
+
+            <div className="operacao-calculadora">
+                <input 
+                    type="radio"
+                    id="dividir"
+                    name="operacoes"
+                    value="dividir"
+                    onClick={ e => setOperacao( e.target.value ) }
+                />
+                <label htmlFor="somar">Dividir</label>
+            </div>
 
 
             <button className="botao-calculadora"
